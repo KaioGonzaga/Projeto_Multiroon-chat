@@ -15,7 +15,7 @@ var app = express()
 
 /*  setar as variaveis 'view engine' e 'viwes' do express */
 app.set('view engine', 'ejs')
-app.set('viwes', './app/viwes')
+app.set('views', './app/views')
 
 /* configurar o middleware express.static */
 app.use(express.static('./app/public'))
